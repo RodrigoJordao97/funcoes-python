@@ -4,5 +4,8 @@ def par_ou_impar(numero):
     else:
         print("impar")
 
-par_ou_impar(5)
-par_ou_impar(8)
+#par_ou_impar(5)
+#par_ou_impar(8)
+
+num = int(input("Digite:"))
+par_ou_impar(num)
