@@ -2,6 +2,7 @@ def saudacao(nome):
     print(f"Olá, {nome}")
     return
 
-    
-saudacao("Rodrigo")
-saudacao("Bruno")
+if __name__ == "__main__":
+
+    saudacao("Rodrigo")
+    saudacao("Bruno")
